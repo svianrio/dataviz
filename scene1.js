@@ -1,5 +1,5 @@
 var svg1 = d3.select("#svg1"),
-margin1 = {top: 50, right: 30, bottom: 10, left: 30},
+margin1 = {top: 10, right: 20, bottom: 10, left: 10},
 chartWidth = +svg1.attr("width") - margin1.left - margin1.right,
 chartHeight = +svg1.attr("height") - margin1.top - margin1.bottom;
 // g1 = svg1.append("g").attr("transform", "translate(" + margin1.left + "," + margin1.top + ")");
