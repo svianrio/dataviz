@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <link rel="shortcut icon" href="photoscape.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src='https://d3js.org/d3.v5.min.js'></script>
+</head>
+<body>
+<div id="tabBox">
+  <div class="tabWrap">
+    <input id="tab-01" name="tab" type="radio" checked />
+    <label class="tab label-01" for="tab-01"><span>1</span></label>
+    <!-- tabContent 01 -->
+    <article class="tabContent">
+      <h1>How Americans spent their time in 2020?</h1>
+      <p>Data about how Americans spent their time during the coronavirus (COVID-19) pandemic in 2020 were released on July 22nd, 2021 from <a href="https://www.bls.gov/news.release/archives/atus_07222021.htm"> the American Time Use Survey (ATUS)</a>.</p>
+      <p>Estimates are representative of May 10th through December 31st and highlight 2020 ATUS data collected during the pandemic. For comparison, estimates representative of this same period in 2019 also are shown. 
+      <p><a href="https://www.bls.gov/">Bureau of Labor Statistics</a> selected this period because ATUS data collection was suspended early in the pandemic to protect the safety of interviewers.</p> 
+      <svg width="900" height="500" id="svg1" ></svg>
+      <script src="scene1.js"></script>
+        
+    </article>
+  </div>
+  <div class="tabWrap">
+    <input id="tab-02" name="tab" type="radio" />
+    <label class="tab label-02" for="tab-02"><span>2</span></label>
+    <!-- tabContent 02 -->
+    <article class="tabContent">
+      <h1>Some implications of COVID19 are evident</h1>
+      <p>Average time spent working declined by 17 minutes per day from 2019 to 2020,
+        reflecting a decrease in the share of the population that was employed. On a given
+        day in 2020, 39 percent of the population spent time working, compared with 43
+        percent of the population in 2019.</p> 
+      <p>Time spent traveling, such as commuting to work or driving to a store, declined by 26
+        minutes from an average of 1.2 hours per day in 2019 to 47 minutes per day in 2020. 
+        The share of individuals who spent time traveling on a given day declined 17 percentage
+        points in 2020, from 84 percent in 2019 to 67 percent in 2020. Those who spent time
+        traveling on a given day did so for a shorter duration (1.5 hours in 2019, compared 
+        with 1.2 hours in 2020).</p>
+      <p>Watching TV was the leisure activity that occupied the most time in 2020 (3.1 hours per day), up 19 minutes per day compared with 2019.</p>
+      <svg width="900" height="500" id="svg2" ></svg>
+      <script src="scene2.js"></script>
+        
+    </article>
+  </div>
+  <div class="tabWrap">
+    <input id="tab-03" name="tab" type="radio" />
+    <label class="tab label-03" for="tab-03"><span>3</span></label>
+    <!-- tabContent 03 -->
+    <article class="tabContent">
+      <h1>Working at home is the new normal</h1>
+      <p>As many employers expanded the use of telework, the percent of employed persons working at home on days they worked nearly doubled during the COVID-19 pandemic in 2020, rising to 42 percent in 2020. Both men and women were more likely to work at home on days they worked in 2020 compared with 2019. On days they worked at home, employed persons did so for an average of 3.6 hours in 2019, compared with 5.8 hours in 2020. Because of that, average travel time, such as commuting to work or driving to a store, decreased for all demographic groups.</p>
+      <svg width="900" height="500" id="svg3"></svg>
+      <script src="scene3.js"></script>  
+    </article>
+  </div>
+  <div class="tabWrap">
+    <input id="tab-04" name="tab" type="radio" />
+    <label class="tab label-04" for="tab-04"><span>4</span></label>
+    <!-- tabContent 02 -->
+    <article class="tabContent">
+      <h1>Work at home and education attainment</h1>
+      <p>Workers with higher levels of education were much more likely to work at home in 2020 than were those who had less education. Among workers age 25 and over, 65 percent of employed persons with a bachelor's degree or higher worked at home on days they worked in 2020 (up from 37 percent in 2019), compared with 19 percent of employed persons whose highest level of education was a high school diploma (up from 13 percent in 2019). </p>
+      <svg width="900" height="500" id="svg4"></svg>
+      <script src="scene4.js"></script>  
+    </article>
+  </div>
+</div>
+
+<!-- Signature -->
+<div class="madeByContainer">
+  <span>Sergio Rio</span>
+  <div class="heart"></div>
+  <a href="mailto:sav7@illinois.edu">sav7@illinois.edu</a>
+</div>
+</body>
