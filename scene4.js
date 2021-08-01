@@ -72,7 +72,7 @@ g4.append("g")
     .on('mouseover', function (d, i) {
         tooltip4
           .html(
-            `<div>${d.value}</div>`
+            `<div>${d.value}%</div>`
           )
           .style('visibility', 'visible');
         d3.select(this).transition().attr('fill', hoverColor);
